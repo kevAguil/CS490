@@ -6,14 +6,14 @@ export default class Venusian {
 
   constructor(name: string) {
     this.name = name;
-    this.VSN = Math.floor(Math.random() * 100);
+    this.VSN = Math.floor(Math.random() * 1000000000);
   }
 
-  public get getName(): string {
+  public getName(): string {
     return this.name;
   }
 
-  public get getVSN(): number {
+  public getVsn(): number {
     return this.VSN;
   }
 
